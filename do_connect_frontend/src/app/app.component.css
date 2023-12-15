@@ -1,0 +1,17 @@
+.main-container {
+  background-image: linear-gradient(
+    to right top,
+    #333333, /* Dark Gray */
+    #666666, /* Medium Gray */
+    #999999, /* Light Gray */
+    #cccccc, /* Very Light Gray */
+    #f2f2f2  /* Almost White */
+  );
+  height: 100vh;
+}
+
+
+.routes-container {
+    height: calc(100vh - 98px);
+    overflow: auto;
+}
